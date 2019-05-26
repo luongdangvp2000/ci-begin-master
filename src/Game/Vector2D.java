@@ -62,6 +62,11 @@ public class Vector2D {
         }
     }
 
+    @Override
+    public String toString() {
+        return "(x: "+x+",y:"+y+")";
+    }
+
     public static void main(String[] args) {
         // String[] arguments
         // args = {"-user", "abc", "-pwd", "mn"}
